@@ -13,7 +13,10 @@ q8 = 'what do you do for fun? \n'
 q9= 'what is something you are really good at doing? \n'
 q10 = 'what time of day is it? \n'
 q11 = 'what is the weather like? \n'
-
+q12 = 'what did you study in school or what are you studying in school at the moment? \n'
+q13 = 'What is your relationship to the person you are talking to or about? \n'
+q14 = 'what is your objective? \n'
+q15
 
 
 
@@ -31,6 +34,10 @@ r8 = input(q8)
 r9 = input(q9)
 r10 = input(q10)
 r11= input(q11)
+r12= input(q12)
+r13= input(q13)
+r14= input(q14)
+
 
 
 
@@ -76,7 +83,16 @@ f.write(q10 + '<br>')
 f.write(r10 + '<br><br>')
 
 f.write(q11 + '<br>')
-f.write(q11 + '<br><br>')
+f.write(r11 + '<br><br>')
+
+f.write(q12 + '<br>')
+f.write(r12 + '<br><br>')
+
+f.write(q13 + '<br>')
+f.write(q13 + '<br><br>')
+
+f.write(q14 + '<br>')
+f.write(r14 + '<br><br>')
 
 f.write("</html>")
         
