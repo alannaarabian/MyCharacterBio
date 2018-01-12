@@ -55,43 +55,43 @@ f.write("<html>")
 f.write('<p style = "color: blue">' + q1 + '</p>' )
 f.write(r1 + '<br><br>')
 
-f.write(q2 + '<br>')
+f.write('<p style = "color: blue">' + q2 + '<br>')
 f.write(r2 + '<br><br>')
 
-f.write(q3 + '<br>')
+f.write('<p style = "color: blue">' + q3 + '<br>')
 f.write(r3 + '<br><br>')
 
-f.write(q4 + '<br>')
+f.write('<p style = "color: blue">' + q4 + '<br>')
 f.write(r4 + '<br><br>')
 
-f.write(q5 + '<br>')
+f.write('<p style = "color: blue">' + q5 + '<br>')
 f.write(r5 + '<br><br>')
 
-f.write(q6 + '<br>')
+f.write('<p style = "color: blue">' + q6 + '<br>')
 f.write(r6 + '<br><br>')
 
-f.write(q7 + '<br>')
+f.write('<p style = "color: blue">' + q7 + '<br>')
 f.write(r7 + '<br><br>')
 
-f.write(q8 + '<br>')
+f.write('<p style = "color: blue">' + q8 + '<br>')
 f.write(r8 + '<br><br>')
 
-f.write(q9 + '<br>')
+f.write('<p style = "color: blue">' + q9 + '<br>')
 f.write(r9 + '<br><br>')
 
-f.write(q10 + '<br>')
+f.write('<p style = "color: blue">' + q10 + '<br>')
 f.write(r10 + '<br><br>')
 
-f.write(q11 + '<br>')
+f.write('<p style = "color: blue">' + q11 + '<br>')
 f.write(r11 + '<br><br>')
 
-f.write(q12 + '<br>')
+f.write('<p style = "color: blue">' + q12 + '<br>')
 f.write(r12 + '<br><br>')
 
-f.write(q13 + '<br>')
+f.write('<p style = "color: blue">' + q13 + '<br>')
 f.write(q13 + '<br><br>')
 
-f.write(q14 + '<br>')
+f.write('<p style = "color: blue">' + q14 + '<br>')
 f.write(r14 + '<br><br>')
 
 f.write("</html>")
