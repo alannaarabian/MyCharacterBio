@@ -16,7 +16,7 @@ q11 = 'what is the weather like? \n'
 q12 = 'what did you study in school or what are you studying in school at the moment? \n'
 q13 = 'What is your relationship to the person you are talking to or about? \n'
 q14 = 'what is your objective? \n'
-q15
+
 
 
 
