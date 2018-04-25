@@ -1,6 +1,6 @@
 Big Picture
 
-Ultimately this project will benefit method actors and help them create a character bio. Method actor use character bios to get to know their characters and to truly become them. It will work like an online job interview. It will ask questions one after the other, and the user should answer them as their character. This information will be gathered in a list, or may be programmed so that way the information is put into a paragraph in a summary like formation. 
+Ultimately this project will benefit method actors and help them create a character bio. Method actor use character bios to get to know their characters and to truly become them. It will work like an online job interview. It will ask questions one after the other, and the user should answer them as their character. This information will be gathered in a list, or may be programmed so that way the information is put into a paragraph in a summary like formation. It should be programmed so that way each actor can sign up and have their own profile. 
 
 
 First Round
