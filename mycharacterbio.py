@@ -14,9 +14,6 @@ q9= 'what is something you are really good at doing? \n'
 q10 = 'what time of day is it? \n'
 q11 = 'what is the weather like? \n'
 
-qlist= [q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11]
-
- 
 
 
 
@@ -35,20 +32,11 @@ r9 = input(q9)
 r10 = input(q10)
 r11= input(q11)
 
-rlist= [r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11]
-
-count=0
-
-
-
 
 
 
 
 # open and write to a file (character_bio.txt)
-qstart= '<p style = "color: blue">'
-astart= '<p style = "color: red">'
-
 
 file_name = 'character_bio.html'
 
@@ -57,21 +45,14 @@ f = open(file_name, 'w') # open a file and plan to write on it
 # write the questions and resposnes on the file
 f.write("<html>")
 
-for i in qlist:
-    f.write(qstart + i +'</p>')
-    f.write(astart + rlist[count] + '</p>')
-    count+=1
-    
-"""   
+f.write('<p style = "color: blue">' + q1 + '</p>' )
+f.write(r1 + '<br><br>')
 
-f.write(qstart + q1 + '</p>' )
-f.write(astart + r1 + '</p>')
+f.write(q2 + '<br>')
+f.write(r2 + '<br><br>')
 
-f.write(q2 + '</p>')
-f.write(r2 + '</p>')
-
-f.write(q3 + '</p>')
-f.write(r3 + '</p>')
+f.write(q3 + '<br>')
+f.write(r3 + '<br><br>')
 
 f.write(q4 + '<br>')
 f.write(r4 + '<br><br>')
@@ -97,8 +78,6 @@ f.write(r10 + '<br><br>')
 f.write(q11 + '<br>')
 f.write(q11 + '<br><br>')
 
-"""
- 
 f.write("</html>")
         
 
