@@ -15,13 +15,13 @@ bright_green = (0, 255, 0)
 car_width = 73
 
 gameDisplay = pygame.display.set_mode((display_width, display_height))
-pygame.display.set_caption('A bit Racey')
+pygame.display.set_caption('my character bio')
 clock = pygame.time.Clock()
 
-carImg = pygame.image.load('racecar.png')
+carImg = pygame.image.load('mycharacterbio.png')
 
 
-def car(x, y):
+def bio (x, y):
     gameDisplay.blit(carImg, (x, y))
 
 
